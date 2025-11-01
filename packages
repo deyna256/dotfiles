@@ -1,0 +1,39 @@
+amd-ucode
+less
+
+# CLI/TTY tools
+zsh
+fzf
+bat
+btop
+zoxide
+yazi
+ncdu
+
+# Docker & Docker compose
+docker
+docker-compose
+
+ghostty
+discord
+telegram-desktop
+bitwarden
+qbittorrent
+bitwarden-cli
+
+# C++
+make
+cmake
+clang
+
+# Documents
+evince
+
+claude-code
+toipe
+zen-browser-bin
+input-remapper-bin
+lazygit
+lazydocker
+yandex-music
+throne-bin
