@@ -2,7 +2,7 @@
 
 set -e
 
-PACKAGES_FILE="${1:-packages.txt}"
+PACKAGES_FILE="${1:-packages}"
 
 if ! command -v yay &> /dev/null; then
     echo "Error: yay is not installed"
