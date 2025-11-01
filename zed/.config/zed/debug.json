@@ -1,0 +1,35 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+    "adapter": "Debugpy",
+    "label": "Python: Current File",
+    "request": "launch",
+    "program": "${ZED_FILE}",
+    "cwd": "${ZED_WORKTREE_ROOT}"
+  },
+  {
+    "adapter": "CodeLLDB",
+    "label": "C++: Build and Debug (LLDB)",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/a.out",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "build": {
+      "command": "g++",
+      "args": ["-g", "${ZED_FILE}"]
+    }
+  },
+  {
+    "adapter": "GDB",
+    "label": "C++: Build and Debug (GDB)",
+    "request": "launch",
+    "program": "${ZED_WORKTREE_ROOT}/a.out",
+    "cwd": "${ZED_WORKTREE_ROOT}",
+    "build": {
+      "command": "g++",
+      "args": ["-g", "${ZED_FILE}"]
+    }
+  }
+]

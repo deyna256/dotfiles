@@ -1,0 +1,153 @@
+{
+  "theme": "Ayu Dark",
+  "icon_theme": "Catppuccin Frappé",
+  "ui_font_size": 15,
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 16,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+
+  "base_keymap": "VSCode",
+  "vim_mode": false,
+  "cursor_shape": "block",
+  "relative_line_numbers": true,
+  "rounded_selection": true,
+  "show_edit_predictions": false,
+
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware"
+  },
+
+  "tabs": {
+    "show_close_button": "hover",
+    "show_diagnostics": "all",
+    "file_icons": false,
+    "git_status": false
+  },
+  "preview_tabs": {
+    "enabled": false
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show": true
+  },
+
+  "git": {
+    "git_gutter": "tracked_files",
+    "inline_blame": {
+      "enabled": true
+    }
+  },
+
+  "project_panel": {
+    "hide_hidden": false,
+    "hide_root": true,
+    "auto_fold_dirs": true,
+    "indent_size": 20.0,
+    "starts_open": true,
+    "sticky_scroll": true,
+    "dock": "right",
+    "scrollbar": {
+      "show": "never"
+    }
+  },
+
+  "terminal": {
+    "button": false,
+    "font_size": 14,
+    "keep_selection_on_copy": false,
+    "toolbar": {
+      "breadcrumbs": false
+    }
+  },
+
+  "languages": {
+    "Python": {
+      "language_servers": ["pyright"]
+    }
+  },
+
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "diagnosticMode": "workspace"
+        },
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
+  },
+
+  "auto_install_extensions": {
+    "markdown-oxide": true,
+    "docker-compose": true,
+    "git-firefly": true,
+    "dockerfile": true,
+    "ruby": true,
+    "make": true,
+    "basher": true,
+    "neocmake": true,
+    "latex": true
+  },
+
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false,
+    "selections_menu": false
+  },
+
+  "title_bar": {
+    "show_menus": false,
+    "show_sign_in": false,
+    "show_onboarding_banner": false,
+    "show_project_items": true,
+    "show_user_picture": false,
+    "show_branch_icon": false
+  },
+
+  "status_bar": {
+    "active_language_button": false
+  },
+
+  "scrollbar": {
+    "show": "auto"
+  },
+
+  "minimap": {
+    "show": "never"
+  },
+
+  "use_system_window_tabs": true,
+  "bottom_dock_layout": "contained",
+  "lsp_document_colors": "inlay",
+  "inline_code_actions": false,
+  "inlay_hints": {
+    "enabled": false
+  },
+
+  "collaboration_panel": {
+    "button": false
+  },
+  "outline_panel": {
+    "button": false
+  },
+  "search": {
+    "button": false
+  },
+  "git_panel": {
+    "button": false
+  },
+
+  "agent": {
+    "play_sound_when_agent_done": true,
+    "model_parameters": [],
+    "enable_feedback": false
+  },
+
+  "telemetry": {
+    "metrics": false,
+    "diagnostics": false
+  }
+}
