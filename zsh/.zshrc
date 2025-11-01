@@ -54,6 +54,7 @@ alias ls='ls -a --color'
 alias c='clear'
 alias lg='lazygit'
 alias ld='lazydocker'
+alias grep='rg'
 
 # Yazi wrapper function to change directory on exit
 function y() {
