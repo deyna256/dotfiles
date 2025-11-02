@@ -4,6 +4,7 @@ ripgrep
 fd
 stow
 tmux
+bind
 
 # CLI/TTY tools
 zsh
