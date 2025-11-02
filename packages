@@ -3,6 +3,7 @@ less
 ripgrep
 fd
 stow
+tmux
 
 # CLI/TTY tools
 zsh
