@@ -2,6 +2,7 @@ amd-ucode
 less
 ripgrep
 fd
+stow
 
 # CLI/TTY tools
 zsh
