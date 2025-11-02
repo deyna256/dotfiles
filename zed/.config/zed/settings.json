@@ -7,7 +7,7 @@
   "buffer_font_family": "JetBrainsMono Nerd Font",
 
   "base_keymap": "VSCode",
-  "vim_mode": false,
+  "vim_mode": true,
   "cursor_shape": "block",
   "relative_line_numbers": true,
   "rounded_selection": true,
