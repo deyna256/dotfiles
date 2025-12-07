@@ -1,3 +1,8 @@
 theme = deep
 gtk-titlebar = false
+window-decoration = none
 font-family = "JetBrains Mono"
+window-theme = system
+gtk-titlebar = false
+gtk-wide-tabs = false
+gtk-adwaita = false
