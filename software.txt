@@ -1,0 +1,9 @@
+gemini-browser-agent
+ringboard
+vex-tui
+Lazyjournal
+tufw
+Brrtfetch
+systemctl-tui
+obsidian
+
