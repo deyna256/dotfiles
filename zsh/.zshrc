@@ -57,6 +57,9 @@ alias ld='lazydocker'
 alias grep='rg'
 alias find='fd'
 alias f='fd'
+alias vim='nvim'
+alias vi='nvim'
+alias v='nvim'
 
 # Yazi wrapper function to change directory on exit
 function y() {
