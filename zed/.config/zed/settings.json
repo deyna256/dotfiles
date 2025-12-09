@@ -40,7 +40,8 @@
   },
 
   "project_panel": {
-    "hide_hidden": true
+    "hide_hidden": true,
+    "dock": "right"
   },
 
   "terminal": {
