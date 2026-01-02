@@ -15,33 +15,33 @@
 
   "indent_guides": {
     "enabled": true,
-    "coloring": "indent_aware"
+    "coloring": "indent_aware",
   },
 
   "tabs": {
     "show_close_button": "hover",
     "show_diagnostics": "all",
     "file_icons": false,
-    "git_status": false
+    "git_status": false,
   },
   "preview_tabs": {
-    "enabled": false
+    "enabled": false,
   },
   "tab_bar": {
     "show_nav_history_buttons": false,
-    "show": true
+    "show": true,
   },
 
   "git": {
     "git_gutter": "tracked_files",
     "inline_blame": {
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
 
   "project_panel": {
     "hide_hidden": true,
-    "dock": "right"
+    "dock": "right",
   },
 
   "terminal": {
@@ -49,27 +49,27 @@
     "font_size": 14,
     "keep_selection_on_copy": false,
     "toolbar": {
-      "breadcrumbs": false
-    }
+      "breadcrumbs": false,
+    },
   },
 
   "languages": {
     "Python": {
-      "language_servers": ["pyright"]
-    }
+      "language_servers": ["ty"],
+    },
   },
 
   "lsp": {
     "pyright": {
       "settings": {
         "python.analysis": {
-          "diagnosticMode": "workspace"
+          "diagnosticMode": "workspace",
         },
         "python": {
-          "pythonPath": ".venv/bin/python"
-        }
-      }
-    }
+          "pythonPath": ".venv/bin/python",
+        },
+      },
+    },
   },
 
   "auto_install_extensions": {
@@ -81,13 +81,13 @@
     "make": true,
     "basher": true,
     "neocmake": true,
-    "latex": true
+    "latex": true,
   },
 
   "toolbar": {
     "breadcrumbs": true,
     "quick_actions": false,
-    "selections_menu": false
+    "selections_menu": false,
   },
 
   "title_bar": {
@@ -96,19 +96,19 @@
     "show_onboarding_banner": false,
     "show_project_items": true,
     "show_user_picture": false,
-    "show_branch_icon": false
+    "show_branch_icon": false,
   },
 
   "status_bar": {
-    "active_language_button": false
+    "active_language_button": false,
   },
 
   "scrollbar": {
-    "show": "auto"
+    "show": "auto",
   },
 
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
 
   "use_system_window_tabs": true,
@@ -116,30 +116,30 @@
   "lsp_document_colors": "inlay",
   "inline_code_actions": false,
   "inlay_hints": {
-    "enabled": false
+    "enabled": false,
   },
 
   "collaboration_panel": {
-    "button": false
+    "button": false,
   },
   "outline_panel": {
-    "button": false
+    "button": false,
   },
   "search": {
-    "button": false
+    "button": false,
   },
   "git_panel": {
-    "button": false
+    "button": false,
   },
 
   "agent": {
     "play_sound_when_agent_done": true,
     "model_parameters": [],
-    "enable_feedback": false
+    "enable_feedback": false,
   },
 
   "telemetry": {
     "metrics": false,
-    "diagnostics": false
-  }
+    "diagnostics": false,
+  },
 }
