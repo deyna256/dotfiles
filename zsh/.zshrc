@@ -90,3 +90,11 @@ export PATH="$PATH:/home/lbc/.local/share/gem/ruby/3.4.0/bin"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$HOME/.local/bin:$PATH"
+
+# Claude Code with OpenRouter
+# export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+# export ANTHROPIC_AUTH_TOKEN="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"
+# export ANTHROPIC_API_KEY=""
+# export ANTHROPIC_DEFAULT_SONNET_MODEL="x-ai/grok-code-fast-1"
+# export ANTHROPIC_DEFAULT_HAIKU_MODEL="xiaomi/mimo-v2-flash:free"
+# export ANTHROPIC_DEFAULT_OPUS_MODEL="xiaomi/mimo-v2-flash:free"
