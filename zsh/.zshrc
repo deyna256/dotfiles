@@ -54,6 +54,7 @@ alias ls='ls -a --color'
 alias c='clear'
 alias lg='lazygit'
 alias ld='lazydocker'
+alias lssh='lazyssh'
 alias grep='rg'
 alias find='fd'
 alias f='fd'
@@ -91,10 +92,17 @@ export PATH="$PATH:/home/lbc/.local/share/gem/ruby/3.4.0/bin"
 export PATH=~/.npm-global/bin:$PATH
 export PATH="$HOME/.local/bin:$PATH"
 
+
+# SSH Agent
+  if [ -z "$SSH_AUTH_SOCK" ]; then
+     eval "$(ssh-agent -s)" > /dev/null
+     ssh-add ~/.ssh/github/github 2>/dev/null
+  fi
+
 # Claude Code with OpenRouter
-# export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
-# export ANTHROPIC_AUTH_TOKEN="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"
-# export ANTHROPIC_API_KEY=""
-# export ANTHROPIC_DEFAULT_SONNET_MODEL="x-ai/grok-code-fast-1"
-# export ANTHROPIC_DEFAULT_HAIKU_MODEL="xiaomi/mimo-v2-flash:free"
-# export ANTHROPIC_DEFAULT_OPUS_MODEL="xiaomi/mimo-v2-flash:free"
+#export ANTHROPIC_BASE_URL="https://openrouter.ai/api"
+#export ANTHROPIC_AUTH_TOKEN="sk-or-v1..."
+#export ANTHROPIC_API_KEY=""
+#export ANTHROPIC_DEFAULT_SONNET_MODEL="minimax/minimax-m2.1"
+#export ANTHROPIC_DEFAULT_HAIKU_MODEL="moonshotai/kimi-k2.5"
+#export ANTHROPIC_DEFAULT_OPUS_MODEL="x-ai/grok-code-fast-1"
