@@ -1,0 +1,20 @@
+gnome (light)
+git
+nvim
+paru
+zen-browser-bin
+gnome-tweaks | fonts | keyboard layout etc.
+turn on bluetooth
+telegram-desktop
+yandex-music
+thunderbird
+btop
+kitty
+v2ran-bin
+stow
+tmux + stow
+zsh + stow
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fzf
+zoxide
+install tpm for tmux
