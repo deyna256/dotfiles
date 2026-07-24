@@ -1,0 +1,32 @@
+# Alacritty owns the outer terminal; tmux owns panes and sessions.
+
+[general]
+ipc_socket = false
+
+[env]
+# Forced for SSH targets that lack the "alacritty" terminfo entry.
+TERM = "xterm-256color"
+
+[terminal]
+shell = { program = "/usr/bin/zsh", args = ["-l"] }
+
+[window]
+dimensions = { columns = 120, lines = 34 }
+padding = { x = 8, y = 8 }
+decorations = "None"
+
+[font]
+size = 12.5
+normal = { family = "JetBrains Mono", style = "Regular" }
+bold = { family = "JetBrains Mono", style = "Bold" }
+italic = { family = "JetBrains Mono", style = "Italic" }
+bold_italic = { family = "JetBrains Mono", style = "Bold Italic" }
+
+[scrolling]
+history = 50000
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
