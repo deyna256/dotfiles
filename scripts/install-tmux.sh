@@ -3,7 +3,7 @@
 set -e
 
 DOTFILES_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-TPM_DIR="$HOME/.tmux/plugins/tpm"
+TPM_DIR="$HOME/.config/tmux/plugins/tpm"
 
 echo "Installing tmux..."
 sudo pacman -S --needed --noconfirm tmux
