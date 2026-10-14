@@ -8,6 +8,7 @@ efibootmgr
 extension-manager
 fzf
 gdm
+ghostty
 git
 gnome-backgrounds
 gnome-browser-connector
@@ -42,7 +43,6 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 input-remapper-bin
-kitty
 lazydocker
 lazygit
 linux-firmware

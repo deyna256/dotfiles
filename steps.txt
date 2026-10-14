@@ -9,12 +9,11 @@ telegram-desktop
 yandex-music
 thunderbird
 btop
-kitty
+ghostty + stow (scripts/install-ghostty.sh, needs ttf-jetbrains-mono-nerd)
 v2ran-bin
 stow
 tmux + stow
-zsh + stow
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+zsh + stow (scripts/install-zsh.sh clones the plugins; zinit is not loaded at startup)
 fzf
 zoxide
 install tpm for tmux
